@@ -12,6 +12,7 @@ public class GrossPayCalculator {
 
         //  1. Get the number of hours worked
         System.out.println("Enter the number of hours the employee works");
+        // Scanner enables user input int he terminal
         Scanner scanner = new Scanner(System.in);
         int hours = scanner.nextInt();
 
@@ -24,7 +25,7 @@ public class GrossPayCalculator {
         double grossPay = hours * rate;
 
         // 4. Display result
-        System.out.println("The emplyees gross pay is $" + grossPay);
+        System.out.println("The employees gross pay is $" + grossPay);
 
 
 
