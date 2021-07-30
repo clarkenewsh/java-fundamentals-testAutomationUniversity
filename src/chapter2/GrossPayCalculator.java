@@ -27,9 +27,6 @@ public class GrossPayCalculator {
         // 4. Display result
         System.out.println("The employees gross pay is $" + grossPay);
 
-
-
-
     }
 
 }
