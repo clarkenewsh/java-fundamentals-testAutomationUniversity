@@ -30,8 +30,6 @@ public class TestResults {
         else {
             grade = 'A';
         }
-
         System.out.println("Your grade is " + grade);
-
     }
 }
